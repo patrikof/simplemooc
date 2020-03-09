@@ -3,7 +3,7 @@ from simplemooc.core import views
 
 app_name='simplemooc'
 
-urlpatterns = [	
+urlpatterns = [
 	path('', views.home,name='home'),
 	path('contato/', views.contact,name='contact'),
 ]
